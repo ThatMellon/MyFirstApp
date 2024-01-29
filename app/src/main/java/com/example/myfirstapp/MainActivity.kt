@@ -38,7 +38,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         style = MaterialTheme.typography.headlineLarge.copy(color = Color.Red) // Set the text color to red
     )
 }
-
+@Composable
+fun Insult(){
+    Text(
+        text = "you poo!"
+    )
+}
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
