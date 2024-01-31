@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello I like crack, my name is $name!",
         modifier = modifier,
         style = MaterialTheme.typography.headlineLarge.copy(color = Color.Red) // Set the text color to red
     )
@@ -48,7 +48,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MyFirstAppTheme {
-        Greeting("A different name")
+        Greeting("Paul")
 
     }
 }
