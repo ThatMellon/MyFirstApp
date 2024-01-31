@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("A different name")
+                    Greeting("A Differenter name")
                 }
             }
         }
@@ -35,7 +35,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         text = "Hello I like crack, my name is $name!",
         modifier = modifier,
-        style = MaterialTheme.typography.headlineLarge.copy(color = Color.Red) // Set the text color to red
+        style = MaterialTheme.typography.headlineLarge.copy(color = Color.Blue) // Set the text color to red
     )
 }
 //@Composable
